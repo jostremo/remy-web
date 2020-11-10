@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: silver;
+    background: linear-gradient(to right, silver, white, silver);
+    background: radial-gradient(silver, white, silver);
+    background: url(../pics/unnamed.png) no-repeat top right, url(../pics/skateboard-icon-png-22.png) no-repeat bottom right, radial-gradient(silver, white, silver);
+    margin-bottom: 75px;
+}
+h1,h2,h3,h4{
+    font-family: orbitron, sans-serif;
+}
+h1 {
+    color: rgb(255,0,0);
+}
+
+
+#top {
+    text-shadow: 5px 5px 10px black;
+    text-align: center;
+    font-size: 100px
+    ;
+}
+pre {
+    color: royalblue;
+    border-left: royalblue 2px solid;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+dt {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: .5rem 0;
+}
+dd, p {
+    text-align: justify;
+}
+figure>img {
+    border-radius: 30%;
+    border-radius: 2em 3em 4em 5em;
+    box-shadow: 5px 5px 7.5px black, -5px -5px 7.5px gray;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+}
+table ,thead, th {
+    background-color: gray;
+}
+table, th, td {
+    border: black solid 1px;
+}
+
+tbody tr:hover {
+    background-color: gold;
+    color: white;
+}
+
+table:first-of-type td:last-child{
+    text-align: right;
+}
+tbody tr td:nth-child(2) {
+    text-align: center;
+}
+ul {
+    list-style-image: url(../pics/bluebullet-small.png);
+}
